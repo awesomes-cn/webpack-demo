@@ -10,7 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "cz-conventional-changelog": "^1.1.5",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.14"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
